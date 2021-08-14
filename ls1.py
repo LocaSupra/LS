@@ -31,6 +31,7 @@ from multiprocessing import Lock
 from random import choice
 import pip
 import select
+import random
 
 thread_lock = Lock()
 
@@ -468,7 +469,7 @@ def loadConfig():
 
         requested_diff = "2"
         
-        rig_identiier = "L"+randint(1,8)
+        rig_identiier = "L"+random.randint(1,8)
 
         
 
