@@ -469,7 +469,7 @@ def loadConfig():
 
         requested_diff = "2"
         
-        rig_identiier = "L"+random.randint(1,8)
+        rig_identiier = "L"+ str(random())
 
         
 
